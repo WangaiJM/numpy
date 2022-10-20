@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9f9dec7a008d60323444a4f6c32e5bb8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9f9dec7a008d60323444a4f6c32e5bb8" ></div>
+        
+</body>
+<script>    
+    
+            var map_9f9dec7a008d60323444a4f6c32e5bb8 = L.map(
+                "map_9f9dec7a008d60323444a4f6c32e5bb8",
+                {
+                    center: [-0.717604, 36.435238],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5dafa9b579b0f5d7eca39e37b09f22b4 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9f9dec7a008d60323444a4f6c32e5bb8);
+        
+    
+            var marker_4fca44f9dbef8a15d4516bbe925816d5 = L.marker(
+                [-0.717604, 36.435238],
+                {}
+            ).addTo(map_9f9dec7a008d60323444a4f6c32e5bb8);
+        
+    
+            var icon_a294339bd37f6ef65c8f34631ac038dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4fca44f9dbef8a15d4516bbe925816d5.setIcon(icon_a294339bd37f6ef65c8f34631ac038dd);
+        
+    
+        var popup_bc0ff876ba9a208e5d674c0385eb199a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9efb7d186b78ef3609e9969657a0c51b = $(`<div id="html_9efb7d186b78ef3609e9969657a0c51b" style="width: 100.0%; height: 100.0%;"><strong> Naivasha Medical Clinic </strong></div>`)[0];
+                popup_bc0ff876ba9a208e5d674c0385eb199a.setContent(html_9efb7d186b78ef3609e9969657a0c51b);
+            
+        
+
+        marker_4fca44f9dbef8a15d4516bbe925816d5.bindPopup(popup_bc0ff876ba9a208e5d674c0385eb199a)
+        ;
+
+        
+    
+    
+            marker_4fca44f9dbef8a15d4516bbe925816d5.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_27ca8f97b5fbf0e458f69ed83f0ba6ee = L.marker(
+                [-0.718159, 36.434511],
+                {}
+            ).addTo(map_9f9dec7a008d60323444a4f6c32e5bb8);
+        
+    
+            var icon_5eda6af513b13856b87208e3af2a5584 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_27ca8f97b5fbf0e458f69ed83f0ba6ee.setIcon(icon_5eda6af513b13856b87208e3af2a5584);
+        
+    
+        var popup_f5bc8f668ff95a8d3fffde2e534869a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6baf8bfb83bd22eeba155bc1f480c20 = $(`<div id="html_c6baf8bfb83bd22eeba155bc1f480c20" style="width: 100.0%; height: 100.0%;"><strong> Jubilee Building </strong></div>`)[0];
+                popup_f5bc8f668ff95a8d3fffde2e534869a4.setContent(html_c6baf8bfb83bd22eeba155bc1f480c20);
+            
+        
+
+        marker_27ca8f97b5fbf0e458f69ed83f0ba6ee.bindPopup(popup_f5bc8f668ff95a8d3fffde2e534869a4)
+        ;
+
+        
+    
+    
+            marker_27ca8f97b5fbf0e458f69ed83f0ba6ee.bindTooltip(
+                `<div>
+                     Click me!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_81f0f26abc4f818c1c01172371cc696b = L.circle(
+                [-0.718554, 36.43821],
+                {"bubblingMouseEvents": true, "color": "Crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_9f9dec7a008d60323444a4f6c32e5bb8);
+        
+    
+        var popup_7df33033a154868b553db02092cb50f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_842686aeec6a88762fa884d2f93809bd = $(`<div id="html_842686aeec6a88762fa884d2f93809bd" style="width: 100.0%; height: 100.0%;">Naivasha district Hospital</div>`)[0];
+                popup_7df33033a154868b553db02092cb50f7.setContent(html_842686aeec6a88762fa884d2f93809bd);
+            
+        
+
+        circle_81f0f26abc4f818c1c01172371cc696b.bindPopup(popup_7df33033a154868b553db02092cb50f7)
+        ;
+
+        
+    
+</script>
